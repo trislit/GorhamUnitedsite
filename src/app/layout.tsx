@@ -13,14 +13,29 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Gorham United | Thoughtful Development, Strong Community, Stable Taxes",
+  title: "Gorham United | Gorham, Maine",
   description:
-    "Gorham United is a group of Gorham, Maine residents committed to promoting responsible development, government transparency, and amplifying residents' voices in town decisions about major projects like the proposed last-mile distribution facility.",
+    "Gorham United is a group of Gorham, Maine residents working for responsible development, stable taxes, and a transparent public process around major projects like the proposed Amazon warehouse.",
   openGraph: {
-    title: "Gorham United",
+    title: "Gorham United | Gorham, Maine",
     description:
-      "Promoting responsible, transparent development in Gorham, Maine. Learn about the proposed last-mile warehouse project and how to get informed.",
+      "Learn about Gorham United, our mission, and how residents can get informed and speak up about the proposed Amazon land sale and other major decisions.",
     type: "website",
+    images: [
+      {
+        url: "/logo.jpeg",
+        width: 768,
+        height: 768,
+        alt: "Gorham United logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gorham United | Gorham, Maine",
+    description:
+      "Gorham United is a resident-led group focused on responsible development, stable taxes, and transparent decision-making in Gorham, Maine.",
+    images: ["/logo.jpeg"],
   },
 };
 
