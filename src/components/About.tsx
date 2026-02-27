@@ -26,7 +26,7 @@ export default function About() {
             Proposed Amazon Warehouse Land Sale
           </h3>
           <p className="mt-3 text-sm leading-relaxed text-slate">
-            Right now, Gorham United is opposed to the proposed sale of 94 acres
+            Gorham United is opposed to the proposed sale of 94 acres
             of town-owned land for an Amazon last-mile warehouse at this
             location. On February 26, 2026, we organized a public meeting
             specifically about this project to share clear, factual information,

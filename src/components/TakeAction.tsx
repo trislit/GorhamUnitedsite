@@ -62,7 +62,7 @@ export default function TakeAction() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  d="M3 7.5l9 6 9-6M4.5 18.75h15a1.5 1.5 0 001.5-1.5v-9a1.5 1.5 0 00-1.5-1.5h-15A1.5 1.5 0 003 8.25v9a1.5 1.5 0 001.5 1.5z"
                 />
               </svg>
             </div>
