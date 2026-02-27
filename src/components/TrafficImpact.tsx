@@ -71,7 +71,7 @@ export default function TrafficImpact() {
           <div className="space-y-6">
             <div className="rounded-2xl border border-red-200 bg-white p-6 shadow-sm">
               <h3 className="font-display text-xl font-bold text-navy">
-                Trucks Destroy Local Roads
+                Heavy Trucks and Local Roads
               </h3>
               <div className="mt-4 grid grid-cols-2 gap-4">
                 <div className="rounded-xl bg-red-50 p-4 text-center">
@@ -93,7 +93,7 @@ export default function TrafficImpact() {
               </div>
               <p className="mt-4 text-sm leading-relaxed text-slate">
                 Estimated road damage cost per round trip from I-95 to the
-                Amazon site:{" "}
+                proposed facility site:{" "}
                 <strong className="text-red-600">$5 to $66 per trip</strong>,
                 depending on load. Maine DOT and our towns are on the hook for
                 these costs.
@@ -105,7 +105,7 @@ export default function TrafficImpact() {
                 Road Expansion Is Expensive
               </h3>
               <p className="mt-2 text-sm text-slate/60">
-                Amazon will need turning lanes and signals &mdash; and when
+                The project is expected to need turning lanes and signals &mdash; and when
                 local roads balloon, who pays?
               </p>
               <div className="mt-4 divide-y divide-navy/10">

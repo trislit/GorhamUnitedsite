@@ -9,7 +9,7 @@ export default function TheIssue() {
             What&rsquo;s Happening
           </p>
           <h2 className="mt-3 font-display text-3xl font-bold text-navy sm:text-4xl lg:text-5xl">
-            The Proposed Amazon Warehouse
+            The Proposed Warehouse &amp; Public Process
           </h2>
         </div>
 

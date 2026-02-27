@@ -43,8 +43,10 @@ export default function TakeAction() {
               <p className="text-sm text-white/70">Gorham Municipal Center</p>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Show up and be counted. Your presence at Town Council meetings
-              demonstrates that residents care about how this decision is made.
+              Show up and be willing to speak. When residents share their own
+              perspectives at Town Council meetings, it tells local leaders that
+              people are paying attention and expect open, transparent
+              decision-making on major issues.
             </p>
           </div>
 
@@ -60,23 +62,32 @@ export default function TakeAction() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
             </div>
             <h3 className="mt-5 font-display text-xl font-bold text-white">
-              Submit Comments
+              Stay Informed
             </h3>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Submit your comments to the Maine Department of Transportation
-              (DOT) and the Department of Environmental Protection (DEP) during
-              their permit review process. Your input matters in the regulatory
-              review.
+              Keep up with town agendas, public notices, and upcoming meetings so
+              you always know what&rsquo;s being discussed before decisions are made.
             </p>
-            <p className="mt-4 text-sm text-white/40">
-              More information on comment submission available on our Facebook
-              page.
+            <p className="mt-4 text-sm text-white/60">
+              Start by subscribing to town updates so you receive agendas and
+              notices directly from the town:
             </p>
+            <a
+              href="https://www.gorhammaine.gov/subscribe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-semibold text-navy-dark shadow-sm transition-all hover:bg-gold hover:text-navy-dark hover:shadow-lg"
+            >
+              <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gold/20 text-[11px] font-bold text-gold-dark">
+                ★
+              </span>
+              <span>Subscribe to Gorham town updates</span>
+            </a>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm sm:col-span-2 lg:col-span-1">
@@ -143,8 +154,7 @@ export default function TakeAction() {
             Resources &amp; Links
           </h3>
           <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-white/60">
-            Save and share these links. New resources can easily be added here as
-            the project evolves.
+            Save and share these links with your neighbors.
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <a

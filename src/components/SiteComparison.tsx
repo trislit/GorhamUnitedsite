@@ -29,7 +29,7 @@ export default function SiteComparison() {
           </h2>
           <p className="mt-4 text-lg text-slate">
             Compared to typical Amazon warehouse locations across the Northeast,
-            the Gorham site fails to meet nearly every standard criteria.
+            the Gorham site is an outlier, and it raises important questions about fit and potential impacts for nearby residents and roads.
           </p>
         </div>
 

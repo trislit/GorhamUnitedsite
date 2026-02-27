@@ -77,7 +77,7 @@ export default function BetterDevelopment() {
             </p>
             <p className="mt-2 text-sm leading-relaxed text-slate">
               Estimated annual tax revenue &mdash; approximately{" "}
-              <strong>$145K more</strong> than even the high-end Amazon estimate
+              <strong>$145K more</strong> than the high-end warehouse estimate used in our analysis
               of $352K.
             </p>
           </div>

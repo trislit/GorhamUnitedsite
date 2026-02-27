@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Gorham United | Thoughtful Development, Strong Community, Stable Taxes",
   description:
-    "Gorham United is a group of Gorham, Maine residents committed to promoting responsible development and amplifying residents' voices in town government. Learn about the proposed Amazon Last Mile warehouse and its impacts.",
+    "Gorham United is a group of Gorham, Maine residents committed to promoting responsible development, government transparency, and amplifying residents' voices in town decisions about major projects like the proposed last-mile distribution facility.",
   openGraph: {
     title: "Gorham United",
     description:
-      "Promoting responsible development in Gorham, Maine. Learn about the proposed Amazon warehouse and take action.",
+      "Promoting responsible, transparent development in Gorham, Maine. Learn about the proposed last-mile warehouse project and how to get informed.",
     type: "website",
   },
 };

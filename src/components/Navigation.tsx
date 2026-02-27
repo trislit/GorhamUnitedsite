@@ -5,13 +5,9 @@ import Image from "next/image";
 
 const navLinks = [
   { href: "#about", label: "About" },
-  { href: "#issue", label: "The Issue" },
-  { href: "#timeline", label: "Timeline" },
-  { href: "#traffic", label: "Traffic" },
-  { href: "#taxes", label: "Taxes" },
-  { href: "#alternatives", label: "Alternatives" },
   { href: "#action", label: "Take Action" },
 ];
+
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -60,7 +56,7 @@ export default function Navigation() {
               href="#action"
               className="ml-3 rounded-full bg-gold px-5 py-2 text-sm font-semibold text-navy-dark transition-all hover:bg-gold-light hover:shadow-lg"
             >
-              Get Involved
+              Donate
             </a>
           </div>
 
@@ -112,7 +108,7 @@ export default function Navigation() {
               onClick={() => setMobileOpen(false)}
               className="mt-2 block rounded-full bg-gold px-5 py-2.5 text-center text-sm font-semibold text-navy-dark"
             >
-              Get Involved
+              Donate
             </a>
           </div>
         </div>
