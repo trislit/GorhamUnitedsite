@@ -59,6 +59,17 @@ export default function About() {
             </svg>
             <span>Recording link coming soon</span>
           </div>
+          <a
+            href="https://docs.google.com/presentation/d/1t3G9pAMMzj61A3MGGQyjZxXG4bNpD7oxszJMlPMDlwc/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center justify-center rounded-full border border-gold/70 bg-white px-5 py-2 text-xs font-semibold text-navy shadow-sm transition-all hover:bg-gold hover:text-navy-dark hover:shadow-md"
+          >
+            <span className="mr-2 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold/10 text-[11px] font-bold text-gold-dark">
+              i
+            </span>
+            <span>View the full Amazon Public Meeting slide deck</span>
+          </a>
         </div>
       </div>
     </section>
