@@ -21,8 +21,7 @@ export default function Hero() {
         </div>
 
         <p className="mx-auto mt-6 max-w-3xl text-base leading-relaxed text-white/70 sm:text-lg">
-          A group of Gorham, Maine residents committed to promoting responsible
-          development and amplifying residents&rsquo; voices in town government.
+          A group of Gorham, Maine residents and allies committed to amplifying residents&rsquo; voices in town government.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

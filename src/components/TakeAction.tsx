@@ -67,27 +67,44 @@ export default function TakeAction() {
               </svg>
             </div>
             <h3 className="mt-5 font-display text-xl font-bold text-white">
-              Stay Informed
+              Oppose Amazon
             </h3>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Keep up with town agendas, public notices, and upcoming meetings so
-              you always know what&rsquo;s being discussed before decisions are made.
+              Submit written comments to the state agencies reviewing this
+              project.
             </p>
-            <p className="mt-4 text-sm text-white/60">
-              Start by subscribing to town updates so you receive agendas and
-              notices directly from the town:
-            </p>
-            <a
-              href="https://www.gorhammaine.gov/subscribe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-semibold text-navy-dark shadow-sm transition-all hover:bg-gold hover:text-navy-dark hover:shadow-lg"
-            >
-              <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gold/20 text-[11px] font-bold text-gold-dark">
-                ★
-              </span>
-              <span>Subscribe to Gorham town updates</span>
-            </a>
+            <div className="mt-4 space-y-3">
+              <a
+                href="mailto:depinfo@maine.gov?subject=Public%20comment%20from%20Gorham%20resident"
+                className="group flex items-start gap-3 rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-left text-sm transition-all hover:border-white/40 hover:bg-white/10"
+              >
+                <span className="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">
+                  DEP
+                </span>
+                <div>
+                  <p className="font-semibold text-white">Email Maine DEP</p>
+                  <p className="mt-1 text-xs text-white/70">
+                    Share your concerns about environmental and site impacts of
+                    the proposed Amazon warehouse project in Gorham.
+                  </p>
+                </div>
+              </a>
+              <a
+                href="mailto:customerservice.dot@maine.gov?subject=Public%20comment%20from%20Gorham%20resident"
+                className="group flex items-start gap-3 rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-left text-sm transition-all hover:border-white/40 hover:bg-white/10"
+              >
+                <span className="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">
+                  DOT
+                </span>
+                <div>
+                  <p className="font-semibold text-white">Email Maine DOT</p>
+                  <p className="mt-1 text-xs text-white/70">
+                    Comment on traffic, safety, and road impacts from trucks and
+                    delivery vans serving the proposed Amazon warehouse.
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm sm:col-span-2 lg:col-span-1">
@@ -134,7 +151,13 @@ export default function TakeAction() {
             Resources &amp; Links
           </h3>
           <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-white/60">
-            Save and share these links with your neighbors.
+            Save and share these links with your neighbors, and use them to stay
+            informed about town agendas, public notices, and upcoming meetings.
+          </p>
+          <p className="mx-auto mt-1 max-w-2xl text-center text-xs text-white/50">
+            Start by subscribing to town updates so you receive agendas and
+            notices directly from the town, then use the email links below to
+            weigh in on the current Amazon proposal.
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <a
