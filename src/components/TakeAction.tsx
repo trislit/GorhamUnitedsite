@@ -154,11 +154,6 @@ export default function TakeAction() {
             Save and share these links with your neighbors, and use them to stay
             informed about town agendas, public notices, and upcoming meetings.
           </p>
-          <p className="mx-auto mt-1 max-w-2xl text-center text-xs text-white/50">
-            Start by subscribing to town updates so you receive agendas and
-            notices directly from the town, then use the email links below to
-            weigh in on the current Amazon proposal.
-          </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <a
               href="https://www.gofundme.com/f/support-gorham-united?attribution_id=sl:494f48ab-70a7-448a-b542-c4d7ae1b32bf&amp;lang=en_US&amp;ts=1772116559&amp;utm_campaign=man_ss_icons&amp;utm_content=amp17_tb-amp20_control&amp;utm_medium=customer&amp;utm_source=copy_link"
@@ -180,37 +175,19 @@ export default function TakeAction() {
               </div>
             </a>
             <a
-              href="mailto:depinfo@maine.gov?subject=Public%20comment%20from%20Gorham%20resident"
-              className="group flex items-start gap-3 rounded-xl border border-white/20 bg-white/5 px-4 py-4 text-left transition-all hover:border-white/40 hover:bg-white/10"
+              href="https://www.gorhammaine.gov/subscribe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-start gap-3 rounded-xl border border-white/20 bg-white px-4 py-4 text-left text-slate transition-all hover:border-gold hover:bg-gold/10"
             >
-              <span className="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-white">
-                DE
+              <span className="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-gold/10 text-xs font-semibold text-gold-dark">
+                ★
               </span>
               <div>
-                <p className="text-sm font-semibold text-white">
-                  Email Maine DEP
-                </p>
-                <p className="mt-1 text-xs text-white/70">
-                  Send written comments to the Maine Department of Environmental
-                  Protection about the proposed Amazon warehouse project in Gorham.
-                </p>
-              </div>
-            </a>
-            <a
-              href="mailto:customerservice.dot@maine.gov?subject=Public%20comment%20from%20Gorham%20resident"
-              className="group flex items-start gap-3 rounded-xl border border-white/20 bg-white/5 px-4 py-4 text-left transition-all hover:border-white/40 hover:bg-white/10"
-            >
-              <span className="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-white">
-                DO
-              </span>
-              <div>
-                <p className="text-sm font-semibold text-white">
-                  Email Maine DOT
-                </p>
-                <p className="mt-1 text-xs text-white/70">
-                  Share your perspective with MaineDOT on traffic and safety
-                  impacts of the proposed Amazon warehouse project and its truck
-                  traffic.
+                <p className="text-sm font-semibold">Subscribe to town updates</p>
+                <p className="mt-1 text-xs text-slate/70">
+                  Get Gorham agendas, notices, and meeting information directly
+                  from the town at gorhammaine.gov/subscribe.
                 </p>
               </div>
             </a>
