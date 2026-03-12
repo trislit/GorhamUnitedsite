@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navigation />
       <PetitionBanner />
-      <main>
+      <main className="pt-28 sm:pt-32">
         <Hero />
         <About />
         <TakeAction />
