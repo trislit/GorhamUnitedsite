@@ -35,18 +35,15 @@ export default function TakeAction() {
             <h3 className="mt-5 font-display text-xl font-bold text-white">
               Attend the Town Council Meeting
             </h3>
-            <div className="mt-4 rounded-xl bg-gold/10 p-4">
-              <p className="font-display text-lg font-bold text-gold">
-                Tuesday, March 3rd
+            <div className="mt-4 rounded-xl bg-gold/10 p-4 text-left">
+              <p className="font-display text-sm font-semibold text-gold">
+                Stay tuned for upcoming Town Council meeting dates.
               </p>
-              <p className="mt-1 text-sm text-white/70">6:30 PM</p>
-              <p className="text-sm text-white/70">Gorham Municipal Center</p>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Show up and be willing to speak. When residents share their own
-              perspectives at Town Council meetings, it tells local leaders that
-              people are paying attention and expect open, transparent
-              decision-making on major issues.
+              When residents share their own perspectives at Town Council
+              meetings, it tells local leaders that people are paying attention
+              and expect open, transparent decision-making on major issues.
             </p>
           </div>
 
