@@ -72,32 +72,36 @@ export default function TakeAction() {
             </p>
             <div className="mt-4 space-y-3">
               <a
-                href="mailto:depinfo@maine.gov?subject=Public%20comment%20from%20Gorham%20resident"
+                href="https://www.maine.gov/dep/contact/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group flex items-start gap-3 rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-left text-sm transition-all hover:border-white/40 hover:bg-white/10"
               >
                 <span className="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">
                   DEP
                 </span>
                 <div>
-                  <p className="font-semibold text-white">Email Maine DEP</p>
+                  <p className="font-semibold text-white">Contact Maine DEP</p>
                   <p className="mt-1 text-xs text-white/70">
-                    Share your concerns about environmental and site impacts of
-                    the proposed Amazon warehouse project in Gorham.
+                    Use the DEP contact page to share concerns about
+                    environmental and site impacts of the proposed Amazon
+                    warehouse project in Gorham.
                   </p>
                 </div>
               </a>
               <a
-                href="mailto:customerservice.dot@maine.gov?subject=Public%20comment%20from%20Gorham%20resident"
+                href="mailto:randy.illian@maine.gov?subject=Public%20comment%20from%20Gorham%20resident%20-%20Amazon%20warehouse%20traffic"
                 className="group flex items-start gap-3 rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-left text-sm transition-all hover:border-white/40 hover:bg-white/10"
               >
                 <span className="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">
                   DOT
                 </span>
                 <div>
-                  <p className="font-semibold text-white">Email Maine DOT</p>
+                  <p className="font-semibold text-white">Email Maine DOT (Randy Illian)</p>
                   <p className="mt-1 text-xs text-white/70">
-                    Comment on traffic, safety, and road impacts from trucks and
-                    delivery vans serving the proposed Amazon warehouse.
+                    Randy Illian is managing this application for the applicant.
+                    Comment on traffic, safety, and road impacts from the
+                    proposed Amazon warehouse.
                   </p>
                 </div>
               </a>
