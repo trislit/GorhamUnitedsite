@@ -47,10 +47,10 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="#action"
+            href="/petition"
             className="inline-flex items-center rounded-full border-2 border-white/30 px-8 py-3.5 text-base font-semibold text-white transition-all hover:border-white/60 hover:bg-white/10"
           >
-            Take Action Now
+            Sign the petition
           </a>
         </div>
 

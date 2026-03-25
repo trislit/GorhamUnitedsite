@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 const navLinks = [
+  { href: "/petition", label: "Petition" },
   { href: "#about", label: "About" },
   { href: "#action", label: "Take Action" },
 ];
@@ -16,7 +17,7 @@ export default function Navigation({ variant = 'fixed' }: NavigationProps) {
 
   return (
     <nav
-      className={`${variant === 'fixed' ? 'fixed top-10 left-0 right-0 z-50' : 'relative w-full'} bg-navy/95 backdrop-blur-md shadow-lg transition-all duration-300`}
+      className={`${variant === 'fixed' ? 'fixed top-14 left-0 right-0 z-50' : 'relative w-full'} bg-navy/95 backdrop-blur-md shadow-lg transition-all duration-300`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between md:h-20">
@@ -38,7 +39,11 @@ export default function Navigation({ variant = 'fixed' }: NavigationProps) {
               <a
                 key={link.href}
                 href={link.href}
-                className="rounded-md px-3 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+                className={
+                  link.href === "/petition"
+                    ? "rounded-md px-3 py-2 text-sm font-semibold text-gold transition-colors hover:bg-white/10 hover:text-gold-light"
+                    : "rounded-md px-3 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+                }
               >
                 {link.label}
               </a>
@@ -91,7 +96,11 @@ export default function Navigation({ variant = 'fixed' }: NavigationProps) {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="block rounded-md px-3 py-2 text-base font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+                className={
+                  link.href === "/petition"
+                    ? "block rounded-md px-3 py-2 text-base font-semibold text-gold transition-colors hover:bg-white/10 hover:text-gold-light"
+                    : "block rounded-md px-3 py-2 text-base font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+                }
               >
                 {link.label}
               </a>
