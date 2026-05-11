@@ -157,7 +157,7 @@ export default function TakeAction() {
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <a
-              href="https://www.gofundme.com/f/support-gorham-united?attribution_id=sl:494f48ab-70a7-448a-b542-c4d7ae1b32bf&amp;lang=en_US&amp;ts=1772116559&amp;utm_campaign=man_ss_icons&amp;utm_content=amp17_tb-amp20_control&amp;utm_medium=customer&amp;utm_source=copy_link"
+              href="https://www.gofundme.com/f/stop-the-amazon-warehouse-deal-in-gorham-me?utm_campaign=fp_sharesheet&amp;utm_content=amp17_tb-amp20_control&amp;utm_medium=customer&amp;utm_source=copy_link&amp;lang=en_US&amp;attribution_id=sl%3A087f2548-b71f-4964-814b-4ee47d357fa3&amp;ts=1778507478"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-start gap-3 rounded-xl border border-gold/40 bg-gold/10 px-4 py-4 text-left transition-all hover:border-gold hover:bg-gold/20"

@@ -26,7 +26,7 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://www.gofundme.com/f/support-gorham-united?attribution_id=sl:494f48ab-70a7-448a-b542-c4d7ae1b32bf&amp;lang=en_US&amp;ts=1772116559&amp;utm_campaign=man_ss_icons&amp;utm_content=amp17_tb-amp20_control&amp;utm_medium=customer&amp;utm_source=copy_link"
+            href="https://www.gofundme.com/f/stop-the-amazon-warehouse-deal-in-gorham-me?utm_campaign=fp_sharesheet&amp;utm_content=amp17_tb-amp20_control&amp;utm_medium=customer&amp;utm_source=copy_link&amp;lang=en_US&amp;attribution_id=sl%3A087f2548-b71f-4964-814b-4ee47d357fa3&amp;ts=1778507478"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center rounded-full bg-gold px-8 py-3.5 text-base font-semibold text-navy-dark shadow-lg transition-all hover:bg-gold-light hover:shadow-xl hover:-translate-y-0.5"
