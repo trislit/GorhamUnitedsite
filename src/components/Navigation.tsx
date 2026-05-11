@@ -44,7 +44,7 @@ export default function Navigation({ variant = 'fixed' }: NavigationProps) {
               </a>
             ))}
             <a
-              href="https://www.gofundme.com/f/support-gorham-united?attribution_id=sl:494f48ab-70a7-448a-b542-c4d7ae1b32bf&lang=en_US&ts=1772116559&utm_campaign=man_ss_icons&utm_content=amp17_tb-amp20_control&utm_medium=customer&utm_source=copy_link"
+              href="https://www.gofundme.com/f/stop-the-amazon-warehouse-deal-in-gorham-me?utm_campaign=fp_sharesheet&utm_content=amp17_tb-amp20_control&utm_medium=customer&utm_source=copy_link&lang=en_US&attribution_id=sl%3A087f2548-b71f-4964-814b-4ee47d357fa3&ts=1778507478"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-3 rounded-full bg-gold px-5 py-2 text-sm font-semibold text-navy-dark transition-all hover:bg-gold-light hover:shadow-lg"
@@ -97,7 +97,7 @@ export default function Navigation({ variant = 'fixed' }: NavigationProps) {
               </a>
             ))}
             <a
-              href="https://www.gofundme.com/f/support-gorham-united?attribution_id=sl:494f48ab-70a7-448a-b542-c4d7ae1b32bf&lang=en_US&ts=1772116559&utm_campaign=man_ss_icons&utm_content=amp17_tb-amp20_control&utm_medium=customer&utm_source=copy_link"
+              href="https://www.gofundme.com/f/stop-the-amazon-warehouse-deal-in-gorham-me?utm_campaign=fp_sharesheet&utm_content=amp17_tb-amp20_control&utm_medium=customer&utm_source=copy_link&lang=en_US&attribution_id=sl%3A087f2548-b71f-4964-814b-4ee47d357fa3&ts=1778507478"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
